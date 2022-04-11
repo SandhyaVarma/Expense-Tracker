@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/SandhyaVarma/Expense-Tracker.git/static/css/main.eeed4053.css",
+    "main.js": "/SandhyaVarma/Expense-Tracker.git/static/js/main.8071a5ac.js",
+    "static/media/Saving-vs-Investing-GSAM-thumbnails-1000x1000-1-767x515.jpg": "/SandhyaVarma/Expense-Tracker.git/static/media/Saving-vs-Investing-GSAM-thumbnails-1000x1000-1-767x515.9a3a03c14f899c4c829e.jpg",
+    "index.html": "/SandhyaVarma/Expense-Tracker.git/index.html",
+    "main.eeed4053.css.map": "/SandhyaVarma/Expense-Tracker.git/static/css/main.eeed4053.css.map",
+    "main.8071a5ac.js.map": "/SandhyaVarma/Expense-Tracker.git/static/js/main.8071a5ac.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.eeed4053.css",
+    "static/js/main.8071a5ac.js"
+  ]
+}
