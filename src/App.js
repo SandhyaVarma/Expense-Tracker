@@ -4,7 +4,7 @@ import Details from './components/details/details'
 import Main from './components/Main/main'
 import useStyles from './styles'
 import { PushToTalkButton ,PushToTalkButtonContainer ,ErrorPanel} from '@speechly/react-ui'
-import {SpeechState, useSpeechContext} from '@speechly/react-client'
+import { SpeechState,useSpeechContext} from '@speechly/react-client'
 
 const App = () => {
     const classes = useStyles();
@@ -15,7 +15,7 @@ const App = () => {
     const executeScroll = () => main.current.scrollIntoView()
 
     useEffect(() => {
-        if (speechState === SpeechState.Recording) {
+        if (speechState === SpeechState ) {
           executeScroll();
         }
       }, [speechState]);
