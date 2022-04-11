@@ -7,7 +7,6 @@ const useTransactions = (title) => {
   resetCategories();
   const { transactions } = useContext(ExpenseTrackerContext);
   const rightTransactions = transactions.filter((t) => t.type === title);
-  console.log(transactions)
   const total = rightTransactions.reduce((acc, currVal) => acc += currVal.amount, 0);
   const categories = title === 'Income' ? incomeCategories : expenseCategories;
 
@@ -20,12 +19,15 @@ const useTransactions = (title) => {
   const filteredCategories = categories.filter((sc) => sc.amount > 0);
 
   const chartData = {
+    labels:filteredCategories.map((c) => c.type),
     datasets: [{
       data: filteredCategories.map((c) => c.amount),
       backgroundColor: filteredCategories.map((c) => c.color),
-    }],
-    labels:filteredCategories.map((c) => c.type),
+    }]
   };
+
+
+
 
   return { filteredCategories, total, chartData };
 };

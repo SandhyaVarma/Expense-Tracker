@@ -5,8 +5,10 @@ export default makeStyles(() => ({
     display: 'flex',
     justifyContent: 'center',
     marginBottom: '-10px',
+    width:'100%'
   },
   button: {
     marginTop: '20px',
+    width:'100vw'
   },
 }));
