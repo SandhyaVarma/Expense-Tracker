@@ -2,7 +2,7 @@
   "name": "expense_tracker",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://github.com/SandhyaVarma/Expense-Tracker.git",
+  "homepage": "https://sandhyavarma.github.io/Expense-tracker",
   "dependencies": {
     "@material-ui/core": "^4.12.4",
     "@material-ui/icons": "^4.11.3",
